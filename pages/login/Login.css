@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+*,
+:before,
+:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: inherit;
+}
+
+body {
+    font-family: 'Orbitron', sans-serif;
+}
+
+.Loginmain {
+    z-index: auto;
+    height: 100%;
+    width: 100%;
+    z-index: inherit;
+    display: flex;
+    align-content: left;
+    align-items: center;
+    justify-content: left;
+    /* background: url("ceiling.mp4"); */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.login {
+    z-index: 10;
+    margin-left: 10%;
+    padding: 2rem;
+    border-radius: 7px;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    text-align: center;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+.heading {
+    font-family: 'Orbitron', sans-serif;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+}
+
+.input {
+    margin-bottom: 1.5rem;
+    text-align: left;
+}
+
+.input label {
+    display: block;
+    font-size: 0.85rem;
+}
+
+.input input {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: none;
+    margin-top: 0.5rem;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 0.9rem;
+    background-color: rgb(255, 98, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+
+.meta-text {
+    font-size: 0.85rem;
+}
+
+.meta-text a {
+    color: orange;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.social-icon {
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.fb svg {
+    fill: #4267B2;
+}
+
+.pr svg {
+    fill: #E60023;
+}
+
+.in svg {
+    fill: #0A66C2;
+}

@@ -1,0 +1,124 @@
+/* .home-container {
+    padding: 20px;
+    text-align: center;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+}
+
+.product-image {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+.product-card h2 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.product-card p {
+    color: #666;
+} */
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    /* Prevent overflow on the body */
+    /* background-image: url('E:\\HHG\\NFT-frontend\\pages\\landing\\Signup2.png'); */
+    
+    /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.home-container {
+    padding: 20px;
+    text-align: center;
+    height: 100%;
+    /* Make the container fill the full height */
+    display: flex;
+    flex-direction: column;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    max-height: calc(100% - 80px);
+    /* Subtract the padding and header height */
+    overflow-y: auto;
+    /* Enable vertical scrolling */
+    padding: 20px;
+    /* Add padding inside the grid container */
+    box-sizing: border-box;
+    /* Ensure padding is included in the element's total width and height */
+}
+
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    background-color: #fff;
+    /* Add background color for better visibility */
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+}
+
+.product-image {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+.product-card h2 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.product-card p {
+    color: #666;
+}
+
+/* Style the scrollbar for WebKit browsers */
+.product-grid::-webkit-scrollbar {
+    width: 10px;
+}
+
+.product-grid::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.product-grid::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+
+.product-grid::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
